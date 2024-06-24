@@ -1,0 +1,29 @@
+/*my css code*/
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #00aaff;
+}
+
+h1 {
+    margin: 20px 0;
+}
+
+.slideshow-container {
+    position: relative;
+    max-width: 1000px;
+    width: 80%; /* Adjust as needed */
+}
+
+.slides {
+    display: none;
+    width: 100%;
+}
+
+.active {
+    display: block;
+}
