@@ -1,0 +1,41 @@
+<!-- Amari Bullard -->
+<!-- Movie Max Movie List-->
+<!-- Code is my own -->
+<!--Limited help from github copilot (error explanation) and youtube (for the java script)-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Character encoding -->
+    <meta charset="UTF-8">
+    <!--device rendering-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--title-->
+    <title>Movie MAX Movie List!</title>
+     <!--The font i wanted to use (comfortaa). Link to google.-->
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+     <!--external css link-->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- main content container-->
+    <div class="container">
+        <!--Main page heading-->
+        <h1>Movie MAX Movie List!</h1>
+        <!-- add movies sub heading-->
+        <h2>Add your movies!</h2>
+        <!--input for the movie titles-->
+        <input type="text" id="movieInput" placeholder="Enter the movie title">
+        <!--add movie button-->
+        <button onclick="addMovie()">Add Movie</button>
+         <!--check movies  button-->
+        <button onclick="displayMovies()">Check list</button>
+        <!--clear movie titles button-->
+        <button onclick="resetMovies()">Clear list</button>
+        <!-- div element to display the list-->
+        <div id="movieList"></div>
+    </div>
+    <!--JS file link :)-->
+    <script src="script.js"></script>
+</body>
+<!--END-->
+</html>

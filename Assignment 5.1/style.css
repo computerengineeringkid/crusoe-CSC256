@@ -1,0 +1,25 @@
+/*CSS*/
+/* self explanatory :P */
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*my font*/
+    font-family: 'Comfortaa', cursive;
+    /*the background color*/
+    background-color: #D0F0FC;
+}
+
+.container {
+    text-align: center;
+}
+
+input, button {
+    margin: 5px 0;
+}
+
+#movieList {
+    margin-top: 20px;
+}
