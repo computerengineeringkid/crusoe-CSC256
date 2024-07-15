@@ -1,0 +1,35 @@
+/*simple css*/
+/*body*/
+body {
+    font-family: 'Comfortaa', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+/*for the cross word*/
+#crossword-container {
+    display: grid;
+    grid-template-columns: repeat(5, 50px);
+    gap: 5px;
+}
+/*for the input*/
+#crossword-container input {
+    width: 48px; 
+    height: 48px;
+    border: 1px solid #333;
+    text-align: center;
+    font-size: large;
+    text-transform: uppercase;
+}
+
+#hints {
+    margin-top: 20px;
+}

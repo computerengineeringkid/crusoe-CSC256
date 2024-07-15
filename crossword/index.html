@@ -1,0 +1,47 @@
+<!--Crossword assignment.-->
+<!--Had an incredible amount of trouble doing this for some reason on my own.-->
+<!--Took inspiration from a similar project (but FAR more complex and advanced) on github to figure our where I was going wrong 
+and how to make this code work properly but the code is mine.-->
+<!DOCTYPE html>
+<!--lang-->
+<html lang="en">
+<!--head-->
+<head>
+    <!--boring information-->
+    <!--char encoding-->
+    <meta charset="UTF-8"> 
+    <!--makes sure the scaling is good on different devices-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <!--title of the page-->
+    <title>Crossword Puzzle</title> 
+
+     <!--link to the css, js and the comfortaa font i like to use-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Comfortaa"> 
+    <link rel="stylesheet" href="styles.css"> 
+    <script src="script.js"></script>
+</head>
+<!--body-->
+<body>
+    <!-- header -->
+    <h1 style="text-align: center; font-family: 'Comfortaa', sans-serif;">Crossword</h1> 
+
+    <!--crossword puzzle container-->
+    <div class="container">
+        <!--crossword grid-->
+        <div id="crossword-container"></div> 
+    </div>
+
+     <!--button to check the answers-->
+    <button onclick="checkAnswers()">Check Answers</button>
+
+    <!-- the hints-->
+    <div id="hints">
+        <p>ROW 4 ACROSS: Large striped cat</p> 
+        <p>COLLUMN 3 DOWN: Man's best friend</p> 
+        <p>COLLUMN 1 DOWN: Loves to chase mice</p> 
+    </div>
+
+   
+</body>
+<!--END-->
+</html>
