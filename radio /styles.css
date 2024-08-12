@@ -1,0 +1,91 @@
+/*CSS... self explanatory usually*/
+/*font import*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+#player {
+  text-align: center;
+  width: 300px;
+}
+
+h1 {
+  margin: 0;
+  font-size: 2em;
+  color: #000000;
+}
+
+h2 {
+  margin: 0;
+  font-size: 1.2em;
+  color: #000000;
+}
+
+#playPauseBtn {
+  margin: 20px 0;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #e0e0e0;
+  color: #000000;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#playPauseBtn:hover {
+  background-color: #bdbdbd;
+}
+
+#volumeControl {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px 0;
+}
+
+#volumeControl label {
+  font-size: 16px;
+  color: #000000;
+  margin-right: 10px;
+}
+
+#volumeSlider {
+  width: 100%;
+}
+
+#playlist {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+#playlist button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #e0e0e0;
+  color: #000000;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#playlist button:hover {
+  background-color: #bdbdbd;
+}
+
+#duration {
+  margin-top: 20px;
+  font-size: 16px;
+  color: #000000;
+}

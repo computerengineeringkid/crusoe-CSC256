@@ -1,0 +1,52 @@
+<!--My radio program for assignment 10.1-->
+<!--code done with inspiration from codepen.io and spotify-->
+<!--code is mine-->
+<!DOCTYPE html>
+<html lang="en">
+<!--header code-->
+<head>
+<!--meta tags-->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--site title-->
+  <title>Radio App</title>
+  <!--link -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<!--body-->
+<body>
+<!--container for audio player interface-->
+  <div id="player">
+    <!--site title-->
+    <h1>Amp me!</h1>
+    <!--site sub title-->
+    <h2>Play music here!</h2>
+    <!--the play button-->
+    <button id="playPauseBtn">Play</button>
+    <!--volume slider-->
+    <div id="volumeControl">
+        <!--leble for the slider itself-->
+      <label for="volumeSlider">Volume</label>
+      <!--the slider itself-->
+      <input type="range" id="volumeSlider" min="0" max="1" step="0.1" value="0.5">
+    </div>
+    <!--container for the play list-->
+    <div id="playlist">
+    <!--the buttons for the music tracks themselves-->
+      <button data-src="Different Heaven & EH!DE - My Heart [NCS].mp3">Track 1: Different Heaven & EH!DE - My Heart [NCS]</button>
+      <button data-src="Spektrem - Shine  Progressive House  NCS - Copyright Free Music.mp3">Track 2: Spektrem - Shine (Progressive House) [NCS]</button>
+      <button data-src="Tobu - Hope [Privated NCS Release].mp3">Track 3: Tobu - Hope [Privated NCS Release]</button>
+    </div>
+    <!--container for the song duration-->
+    <div id="duration">
+      <span id="currentTime">0:00</span> / <span id="totalTime">0:00</span>
+    </div>
+    <!--credit for legality and such-->
+    <h3>All music provided by No Copyright Sounds</h3>
+  </div>
+  <!--js link-->
+  <script src="script.js"></script>
+</body>
+</html>
+<!--END-->
